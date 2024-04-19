@@ -1,0 +1,8 @@
+npm -v
+npm i -y
+npm install -g npm@latest
+npm install -g parcel-bundler
+npm init -y
+npm i react react-dom
+npm install --save-dev parcel
+npx parcel index.html
